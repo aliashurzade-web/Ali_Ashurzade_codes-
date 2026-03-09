@@ -1,0 +1,58 @@
+#R34{
+    height: 10vh;
+}
+#Lambo{
+    height: 10vh;
+}
+#M3{
+    height: 10vh;
+}
+#Supra{
+    height: 10vh;
+}
+#Ferrari{
+    height: 10vh;
+}
+#Volcan{
+    height: 10vh;
+}
+#Chiron{
+    height: 10vh;
+}
+#Impreza{
+    height: 10vh;
+}
+#P911{
+    height: 10vh;
+}
+#R8{
+    height: 10vh;
+}
+th, td{
+    border: solid;
+    border-color: aqua;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 350px;
+}
+h1:hover{
+    color: aqua;
+}
+td:hover{
+    background-color: aqua;   
+}
+th:hover{
+    background-color: red;
+    cursor: not-allowed;
+}
+h1{
+    text-align: center;
+}
+td{
+    padding: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

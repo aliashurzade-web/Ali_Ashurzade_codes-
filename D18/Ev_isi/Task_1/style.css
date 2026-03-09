@@ -1,0 +1,16 @@
+body{
+    background-image: url(./image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    margin-top: 300px;
+    color: white;
+    box-sizing: border-box;
+    width: 500px;
+}
+button{
+    border-color: white;
+    padding: 5px;
+    background-color: white;
+}

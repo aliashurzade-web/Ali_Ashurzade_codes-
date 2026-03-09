@@ -1,0 +1,24 @@
+img{
+    height: 15vh;
+    margin-left: 30px;
+}
+#birinci_div{
+    box-sizing: border-box;
+    margin-left: 600px;
+    margin-top: 200px;
+    height: 45vh;
+    border: solid;
+    width: 270px;
+    padding: 20px;
+}
+#Price{
+    color: red;
+}
+#ikinci_div{
+    height: 5vh;
+    background-color: rgb(120, 120, 120);
+    width: 200px;
+}
+#back{
+    color: black;
+}

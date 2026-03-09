@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Baby.jpg), url(./Bart_simpson.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 10%,10%;
+    background-position: top left, right bottom;
+    background-attachment: fixed;
+}
+div{
+    margin-left: 500px;
+}
+button{
+    color: aqua;
+    border-radius: 10px;
+    background-color: red;
+    border-color: red;
+    padding: 5px;
+    margin-left: 500px;
+}

@@ -1,0 +1,37 @@
+#R34{
+    height: 10vh;
+}
+#Lambo{
+    height: 10vh;
+}
+#M3{
+    height: 10vh;
+}
+#Supra{
+    height: 10vh;
+}
+#Ferrari{
+    height: 10vh;
+}
+#Volcan{
+    height: 10vh;
+}
+#Chiron{
+    height: 10vh;
+}
+#Impreza{
+    height: 10vh;
+}
+#P911{
+    height: 10vh;
+}
+#R8{
+    height: 10vh;
+}
+th, td{
+    border: solid;
+    border-color: aqua;
+}
+table{
+    border-collapse: collapse;
+}
