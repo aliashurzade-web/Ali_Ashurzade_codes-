@@ -1,0 +1,8 @@
+table{
+    border-collapse: collapse;
+    background-color: aqua;
+    width: 15vw;
+    height: 30vh;
+    text-align: center;
+    margin: 100px auto;
+} 
