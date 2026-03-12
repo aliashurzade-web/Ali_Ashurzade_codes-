@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    background-color: aquamarine;
+    overflow: auto;
+}
+li{
+    float: left;
+    margin-right: 30px;
+}
