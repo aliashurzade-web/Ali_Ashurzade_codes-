@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#My{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#sol{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    height: 100vh;
+}
+#Novbar{
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+body{
+    background-image: url(./Tapşırığın_arxa_fon_şəkli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+img{
+    height: 0.1vh;
+}
+#Novbar:hover{
+    background-color: black;
+}
