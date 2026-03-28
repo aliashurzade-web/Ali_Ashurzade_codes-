@@ -1,0 +1,70 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+}
+.facebook{
+    margin-left: 300px;
+    margin-top: 200px;
+    width: 300px;
+}
+p{
+    font-size: large;
+    margin-top: -20px;
+}
+label,input{
+    display: block;
+    margin-top: 3px;
+    padding: 10px;
+    margin-left: 30px;
+    width: 250px;
+}
+.login{
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 700px;
+    margin-top: -100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+button{
+    background-color: rgb(48, 48, 255);
+    margin-left: 5px;
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+body{
+    background-color: azure;
+}
+a{
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#accaunt{
+    color: white;
+    background-color: rgb(9, 217, 9);
+    padding: 10px;
+    text-decoration: solid;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 75px;
+}
+small{
+    color: rgba(0, 0, 0, 0.2);
+}
+#Page{
+    font-size: 15px;
+    margin-left: 710px;
+    margin-top: 30px;
+}
