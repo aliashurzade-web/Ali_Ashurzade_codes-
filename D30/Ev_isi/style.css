@@ -1,0 +1,21 @@
+img{
+    width: 100px;
+}
+div{
+    width: 250px;
+    margin-left: 200px;
+}
+form{
+    margin-left: 200px;
+}
+button{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}

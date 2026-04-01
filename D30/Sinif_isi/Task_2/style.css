@@ -1,0 +1,12 @@
+div{
+    width: 400px;
+    background-color: azure;
+    border-style: solid;
+    border-color: green;
+    border-radius: 4px;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin-top: 5px;
+}
