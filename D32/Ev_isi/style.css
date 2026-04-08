@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Stencil", sans-serif;
+}
+input{
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+select{
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+div{
+    background-color: yellowgreen;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(133, 202, 121, 0.5);
+    width: 500px;
+    padding: 10px;
+    margin: 100px auto;
+}
+#clear{
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    background-color: yellowgreen;
+}
+#submit{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 255, 6);
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
