@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Saira Stencil", sans-serif;
+    box-sizing: border-box;
+}
+.Yuxarı_div{
+    height: 400px;
+    background-color: rgb(80, 80, 242);
+    margin: -8px;
+    margin-top: -19px;
+}
+#yuxarı_mac{
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 700px;
+    margin-top: -10px; 
+}
+.yuaxrı_yazi{
+    width: 500px;
+    margin-left: 50px;
+    color: white;
+    margin-bottom: -5px;
+}
+.macboook{
+    width: 20%;
+    border-radius: 10px;
+}
+.Steve{
+    width: 20%;
+    border-radius: 10px;
+}
+.Mac{
+    width: 20%;
+    border-radius: 10px;
+}
+.Ashaghi_shekiller{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.Ashaghi_yazi{
+    display: flex;
+    justify-content: space-evenly;
+}
+small{
+    width: 300px;
+}
+#Really{
+    font-size: larger;
+}
+.get{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(80, 80, 242);
+}
+.Learn{
+    background-color: rgb(80, 80, 242);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}

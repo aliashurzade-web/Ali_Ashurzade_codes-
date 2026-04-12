@@ -9,11 +9,11 @@
 <body>
     <div>
     <form action="">
-        <input type="text" id="name" name="name" required>
-        <label for="name">First Name</label>
+        <input type="text" id="name" name="name" required id="block">
+        <label for="name" id="inline"><p>First Name</p></label>
 
-        <input type="text" id="Surname" name="Surname" required>
-        <label for="lastname">Surname</label>
+        <input type="text" id="Surname" name="Surname" required id="block">
+        <label for="lastname" id="inline"><p>Surname</p></label>
         
         <label for="">Email adress</label>
         <input type="email" id="Email" name="Email" required>
@@ -36,8 +36,8 @@
             <option value="Phone number">Phone number(+994 50 714 84 19)</option>
         </select>
 
-        <label for="">Signature</label>
-        <input type="text">
+        <label for="" >Signature</label>
+        <input type="text" id="Signature">
         <button type="reset" id="clear">Clear</button>
         <button type="submit" id="submit">Submit</button>
 

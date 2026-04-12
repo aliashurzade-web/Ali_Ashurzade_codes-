@@ -6,7 +6,7 @@
     font-family: "Saira Stencil", sans-serif;
 }
 input{
-    display: block;
+    display: block; 
     margin-top: 5px;
     border-radius: 10px;
     border: none;
@@ -43,4 +43,8 @@ div{
     display: block;
     padding: 5px;
     margin: 10px auto;
+}
+#Signature{
+    height: 100px;
+    width: 400px;
 }
