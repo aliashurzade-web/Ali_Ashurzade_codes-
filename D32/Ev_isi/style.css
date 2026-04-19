@@ -35,6 +35,7 @@ div{
     text-decoration: underline;
     text-decoration-color: blue;
     background-color: yellowgreen;
+    flex-direction:
 }
 #submit{
     border: none;
