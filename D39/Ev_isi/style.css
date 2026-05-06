@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-family: "Dancing Script", cursive;
+    margin-left: 10px;
+}
+p{
+    font-family: "Saira Stencil", sans-serif;
+    margin-left: 20px;
+}
+body{
+    background-color: red;
+}
+div{
+    position: relative;
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    left: 700px;
+    top: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+img{
+    width: 1000px;
+    margin-left: 10px;
+    margin-top: -800px;
+}
