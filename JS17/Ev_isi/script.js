@@ -7,6 +7,7 @@ const supermmed = {
         return `Qehraman: ${this.name}, Guc: ${this.power}, Seviyye: ${this.level}.`
     }
 };
+
 console.log(supermmed.getheroinfo());
 
 const pisik = {
