@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: #f8f9fa;
+  color: #212529;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 16px 48px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 40px 0 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e3e6ea;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.field input {
+  width: 100%;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #212529;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.field input::placeholder { color: #6c757d; }
+
+.field input:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.25);
+}
+
+.preview {
+  display: block;
+  width: 24px;
+  height: 32px;
+  margin-top: 14px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.preview[hidden] { display: none; }
+
+.btn-add {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #23965a;
+  border: 1px solid #23965a;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-add:hover { background: #1c7c49; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  background: #212529;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 8px;
+  border: 1px solid #373b3e;
+}
+
+tbody td {
+  padding: 8px;
+  font-size: 0.9rem;
+  vertical-align: top;
+  background: #f1f1f1;
+  border: 1px solid #dee2e6;
+}
+
+tbody td img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #fff;
+  display: block;
+}

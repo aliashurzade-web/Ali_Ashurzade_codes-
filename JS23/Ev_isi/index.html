@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anbar Üzrə Yeni Məhsul Girişi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Anbar Üzrə Yeni Məhsul Girişi</h1>
+
+    <div class="card">
+      <div class="form-row">
+        <div class="field">
+          <label for="category">Kateqoriya</label>
+          <input type="text" id="category" placeholder="Kateqoriya">
+        </div>
+        <div class="field">
+          <label for="stock">Stok Sayı</label>
+          <input type="number" id="stock" placeholder="Sayı" min="0">
+        </div>
+        <div class="field">
+          <label for="image">Şəkil Linki</label>
+          <input type="text" id="image">
+        </div>
+      </div>
+
+      <img id="preview" class="preview" alt="Şəkil önizləməsi" hidden>
+
+      <button type="button" id="addBtn" class="btn-add">Məlumatı Əlavə Et</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Kod</th>
+          <th>Kateqoriya</th>
+          <th>Stok</th>
+          <th>Şəkil</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
