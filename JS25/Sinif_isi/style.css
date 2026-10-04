@@ -1,0 +1,17 @@
+#carouselExampleIndicators{
+    width: 50vw !important;
+    height: 450px;
+    margin: 20px auto !important;
+    overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-item{
+    height: 100%;
+}
+
+#carouselExampleIndicators .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
