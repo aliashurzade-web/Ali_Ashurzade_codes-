@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maşın Satışı</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Başlıq -->
+        <h3 class="text-center mb-4">
+            Maşın Satışı
+        </h3>
+
+        <!-- Form Bölməsi -->
+        <div class="form-hissəsi">
+
+            <div class="row mb-3">
+
+                <div class="col-md-4">
+
+                    <label class="form-label text-muted">
+                        Maşının markası
+                    </label>
+
+                    <input
+                        type="text"
+                        id="markaGiris"
+                        class="form-control"
+                        placeholder="Məs. BMW">
+
+                    <img
+                        id="sekilOnBaxis"
+                        class="onbaxis-sekli"
+                        alt="Açılmayan önbaxış şəkli">
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <label class="form-label text-muted">
+                        Motor at gücü
+                    </label>
+
+                    <input
+                        type="number"
+                        id="atGucuGiris"
+                        class="form-control"
+                        placeholder="Məs. 184">
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <label class="form-label text-muted">
+                        Şəkil Linki
+                    </label>
+
+                    <input
+                        type="text"
+                        id="sekilLinkGiris"
+                        class="form-control">
+
+
+                </div>
+
+            </div>
+
+            <!-- Əlavə et düyməsi -->
+
+            <button
+                id="elaveEtDuymesi"
+                class="btn btn-success w-100 fw-bold">
+
+                Məlumatı Əlavə Et
+
+            </button>
+
+        </div>
+
+        <!-- Cədvəl -->
+
+        <table class="table table-bordered text-center bg-white">
+
+            <thead class="table-dark">
+
+                <tr>
+                    <th>Maşın kodu</th>
+                    <th>Marka</th>
+                    <th>at gücü</th>
+                    <th>Maşının şəkli</th>
+                    <th>Əməliyyat</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="cedvelGovdesi">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
