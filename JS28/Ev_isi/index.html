@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation & Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <form id="userForm" novalidate>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Adınızı yazın</label>
+                    <input type="text" class="form-control" id="username">
+                    <div id="nameError" class="error-msg">Ən azı 3 olmalıdır</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="userage" class="form-label">Yaşınızı yazın</label>
+                    <input type="number" class="form-control" id="userage">
+                    <div id="ageError" class="error-msg">18-dən yuxarı olmalıdır</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-container">
+            <table class="table table-bordered text-center align-middle bg-white shadow-sm">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Userage</th>
+                        <th>Index</th>
+                        <th>operation</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

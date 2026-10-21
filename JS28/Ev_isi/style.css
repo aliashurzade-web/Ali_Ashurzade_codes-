@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 40px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-msg {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: none;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+}
