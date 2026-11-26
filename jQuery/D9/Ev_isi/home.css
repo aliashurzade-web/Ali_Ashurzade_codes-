@@ -1,0 +1,43 @@
+/* Ana Səhifə (Dashboard) Xüsusi Stili - home.css */
+
+/* Səhifənin arxa fonunu bir az rəngarəng, amma göz yormayan edək */
+body {
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar dizaynını fərqləndirək */
+.navbar {
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Xoş gəldin mesajının hərflərinə kölgə verək ki, 3D effekti yaratsın */
+#xosGeldinMesaji {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+/* Çıxış et düyməsini qırmızı və diqqətçəkən edək */
+#cixisDüymesi {
+    background-color: #dc3545; /* Tünd qırmızı (Bootstrap's danger color) */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Kənarlarını oval edirik */
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Üzərinə gələndə yumşaq dəyişmə effekti */
+    box-shadow: 0 4px 6px rgba(220, 53, 69, 0.3); /* Qırmızı kölgə */
+}
+
+/* Düymənin üzərinə mausu gətirəndə (hover) necə görünsün */
+#cixisDüymesi:hover {
+    background-color: #c82333; /* Rəngi bir az tündləşir */
+    transform: translateY(-2px); /* Yuxarı qalxır */
+    box-shadow: 0 6px 8px rgba(220, 53, 69, 0.4); /* Kölgəsi böyüyür */
+}
+
+/* Düyməyə klik edəndə (active) necə görünsün */
+#cixisDüymesi:active {
+    transform: translateY(1px); /* Aşağı düşür */
+    box-shadow: 0 2px 4px rgba(220, 53, 69, 0.2);
+}

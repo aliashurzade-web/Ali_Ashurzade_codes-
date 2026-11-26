@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Səhifə (Dashboard)</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <!-- Bizim xüsusi CSS fayllarımız -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <!-- Navbar (Üst panel) -->
+    <nav class="navbar px-4 d-flex justify-content-between align-items-center bg-white">
+        <a class="navbar-brand text-dark font-weight-bold" href="#">Mənim Saytım</a>
+        
+        <!-- Çıxış düyməsi (home.css-dəki id ilə dizayn edilib) -->
+        <button id="cixisDüymesi">Hesabdan Çıxış Et</button>
+    </nav>
+
+    <!-- Mərkəzi Məlumat Hissəsi -->
+    <div class="container mt-5 text-center">
+        <h1 id="xosGeldinMesaji" class="text-primary display-4">Xoş gəldin!</h1>
+        <p class="lead mt-3">Bu səhifəni yalnız qeydiyyatdan keçib giriş edənlər görə bilər.</p>
+    </div>
+    
+    <!-- jQuery və Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Təhlükəsizlik və yoxlama kodları -->
+    <script src="./home.js"></script>
+</body>
+</html>
